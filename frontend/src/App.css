@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+body{
+  background: rgb(34,193,195);
+  background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+  font-family: "work sans";
+}
+
+html{
+  font-size: 100%;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign_in{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign_up{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign_in input{
+  width: 16rem;
+  height: 2rem;
+  border-radius: 0.6rem;
+  border: none;
+  margin: 0.4rem;
+}
+
+input:focus{
+  outline: none;
+}
+
+.sign_up input{
+  width: 16rem;
+  height: 2rem;
+  border-radius: 0.6rem;
+  border: none;
+  margin: 0.4rem;
+}
+
+.button{
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.6rem;
+  align-items: flex-end;
+}
+
+.sign_in button{
+  background-color: rgb(23, 172, 36);
+}
+.sign_up button{
+  background-color: rgb(119, 79, 182);
+}
